@@ -4,7 +4,7 @@ import { FaCircleArrowUp, FaFacebookF, FaInstagram, FaGithub, FaXTwitter, FaGoog
 export const Footer2 = () => {
 	return (
 		<>
-			<footer className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
+			<footer className="Layout">
 				<div className="flex flex-col md:flex-row justify-between mb-12 md:mb-8 ">
 					<h1 className="text-4xl font-semibold text-zinc-200">Connect with <span className="text-red-500">me.</span></h1>
 					<div className="flex md:flex-row items-center gap-2">

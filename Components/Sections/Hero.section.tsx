@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa6"
 const HeroSection = () => {
 	return (
 		<>
-			<section className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
+			<section className="Layout">
 				<div className="flex h-full flex-col justify-between">
 					<div className="grid gap-8 sm:grid-cols-2">
 						<div>

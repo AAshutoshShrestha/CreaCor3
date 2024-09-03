@@ -1,4 +1,6 @@
 import { Layout } from "@/Components/Layout";
+import { Gallery } from "@/Components/Sections/Gallery.section";
+import Image from "next/image";
 
 export default function PortfolioDetails() {
 	return (
@@ -16,13 +18,21 @@ export default function PortfolioDetails() {
 						</p>
 					</div>
 					<div className="mx-auto my-12 max-w-6xl px-1 md:px-12">
-						<div className="grid grid-cols-3 gap-2">
-							<img className="col-span-1 h-96 w-full rounded-md object-cover"
-								src="https://images.unsplash.com/photo-1542641728-6ca359b085f4?w=800&q=60" alt="App screenshot"
-								width="1380" height="1380" />
-							<img className="col-span-2 h-96 w-full rounded-md object-cover"
-								src="https://images.unsplash.com/photo-1604145559206-e3bce0040e2d?w=800&q=60"
-								alt="App screenshot" width="2000" height="1333" />
+						<div className="flex flex-col md:grid md:grid-cols-3 gap-2">
+							<Image
+								src="https://images.unsplash.com/photo-1604145559206-e3bce0040e2d?w=800&q=70"
+								alt="project cover"
+								width={850}
+								height={1000}
+								className="col-span-2 h-96 w-full rounded-md object-cover"
+							/>
+							<Image
+								src="https://images.unsplash.com/photo-1542641728-6ca359b085f4?w=800&q=70"
+								alt="project cover"
+								width={850}
+								height={1000}
+								className="col-span-1 h-96 w-full rounded-md object-cover"
+							/>
 						</div>
 					</div>
 				</section>
@@ -45,16 +55,28 @@ export default function PortfolioDetails() {
 						</div>
 					</div>
 
-					<div className="grid grid-cols-3 gap-2">
-						<img className="col-span-1 h-full w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-						<img className="col-span-1 h-full w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1542641728-6ca359b085f4?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-						<img className="col-span-1 h-full w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
+					<div className="flex flex-col md:grid md:grid-cols-3 gap-2">
+						<Image
+							src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?w=800&q=70"
+							alt="project cover"
+							width={850}
+							height={1000}
+							className="col-span-1 h-96 w-full rounded-md object-cover"
+						/>
+						<Image
+							src="https://images.unsplash.com/photo-1542641728-6ca359b085f4?w=800&q=70"
+							alt="project cover"
+							width={850}
+							height={1000}
+							className="col-span-1 h-96 w-full rounded-md object-cover"
+						/>
+						<Image
+							src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=800&q=70"
+							alt="project cover"
+							width={850}
+							height={1000}
+							className="col-span-1 h-96 w-full rounded-md object-cover"
+						/>
 					</div>
 				</section>
 				<section className="Layout">
@@ -77,23 +99,7 @@ export default function PortfolioDetails() {
 						</div>
 					</div>
 
-					<div className="grid grid-cols-3 gap-2 mx-auto max-w-6xl">
-						<img className="col-span-1 h-96 w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1542641728-6ca359b085f4?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-						<img className="col-span-2 h-96 w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-						<img className="col-span-1 h-96 w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-						<img className="col-span-1 h-96 w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?w=800&q=60"
-							alt="project cover" width="826" height="1239" />
-						<img className="col-span-1 h-96 w-full rounded-md object-cover"
-							src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=60" alt="App feature"
-							width="826" height="1239" />
-					</div>
+					<Gallery />
 				</section>
 				<section className="Layout">
 					<div className="md:px-6 lg:px-12">

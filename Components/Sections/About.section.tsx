@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaGithub, FaXTwitter, FaGoogle } from "react-
 export const AboutMe = () => {
 	return (
 		<>
-			<section className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
+			<section className="Layout">
 				<div className="">
 					<h1 className="mt-16 text-3xl font-semibold text-white">Jordan Lee</h1>
 					<p className="text-sm tracking-wide text-zinc-300">Lead Web Developer</p>

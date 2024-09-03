@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-  @apply bg-zinc-950
+body {
+	@apply bg-zinc-950;
 }
+
 .Layout {
-	@apply mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20
+	@apply mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20;
 }

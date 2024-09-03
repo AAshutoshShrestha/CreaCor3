@@ -5,7 +5,7 @@ export const Footer1 = () => {
 	return (
 		<>
 			<footer className="relative mt-12 border-t border-zinc-900 py-6">
-				<div className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
+				<div className="Layout">
 					<div className="flex flex-wrap justify-between gap-4">
 						<div className="flex flex-col-reverse gap-6">
 							<span className="text-sm text-zinc-500">&copy; CreaCore 2024 - Present</span>

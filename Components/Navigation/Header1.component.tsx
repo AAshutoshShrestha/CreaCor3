@@ -15,7 +15,7 @@ const MenuItems = [
 export const Header1 = () => {
 	return (
 		<>
-			<header className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20" id="headerNav">
+			<header className="Layout" id="headerNav">
 				<div className="mx-auto max-w-6xl">
 					<div className="flex justify-between">
 						<div className="flex gap-4">
@@ -40,12 +40,12 @@ export const Header1 = () => {
 
 
 							<div
-								className="absolute right-0 z-20 mt-2 hidden w-48 rounded-md bg-zinc-400 shadow-lg peer-checked:block z-20">
+								className="absolute right-0 mt-2 hidden w-48 rounded-md bg-zinc-900 shadow-lg peer-checked:block z-20">
 								<ul className="py-1 text-sm text-zinc-200">
 									{
 										MenuItems.map((item, index) => (
 											<li key={index}>
-												<Link href={item.link} className="block px-4 py-2 hover:bg-zinc-700 hover:text-white">{item.name}</Link>
+												<Link href={item.link} className="block px-4 py-2 hover:bg-zinc-800 hover:text-white">{item.name}</Link>
 											</li>
 										))
 									}

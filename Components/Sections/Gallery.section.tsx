@@ -4,9 +4,8 @@ export const Gallery = () => {
 	return (
 		<>
 
-			<section className="md:mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
-				<div className="">
-					<div className="flex flex-col md:grid md:grid-cols-3 gap-2 mx-auto max-w-6xl">
+			<section className="Layout">
+					<div className="flex flex-col md:grid md:grid-cols-3 gap-2">
 						<Image
 							src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&q=70"
 							alt="project cover"
@@ -45,7 +44,6 @@ export const Gallery = () => {
 
 
 					</div>
-				</div>
 			</section>
 		</>
 	)
