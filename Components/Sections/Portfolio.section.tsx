@@ -3,7 +3,7 @@ import Image from "next/image"
 const PortfolioSection = () => {
 	return (
 		<>
-			<section className="Layout">
+			<section className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
 				<h1 className="text-5xl font-semibold text-zinc-200">Selected Works</h1>
 				<span className="text-sm tracking-wide text-red-500">From : 2018 -&gt; 2024</span>
 

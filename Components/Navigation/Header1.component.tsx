@@ -15,7 +15,7 @@ const MenuItems = [
 export const Header1 = () => {
 	return (
 		<>
-			<header className="Layout" id="headerNav">
+			<header className="mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20" id="headerNav">
 				<div className="mx-auto max-w-6xl">
 					<div className="flex justify-between">
 						<div className="flex gap-4">

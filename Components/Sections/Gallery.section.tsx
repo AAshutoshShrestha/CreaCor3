@@ -4,7 +4,7 @@ export const Gallery = () => {
 	return (
 		<>
 
-			<section className="md:Layout">
+			<section className="md:mx-auto max-w-5xl sm:pb-16 px-8 md:px-12 mt-20">
 				<div className="">
 					<div className="flex flex-col md:grid md:grid-cols-3 gap-2 mx-auto max-w-6xl">
 						<Image
