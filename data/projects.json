@@ -1,0 +1,176 @@
+[
+	{
+		"ProjectName": "E-Commerce Redesign",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=60",
+			"alt": "alt tag for the banner image"
+		},
+		"Category": "UI/UX Design",
+		"slug": "e-commerce-redesign",
+		"Company_Name": "ABC Retailers",
+		"Company_Location": {
+			"city": "New York",
+			"state": "NY",
+			"country": "USA"
+		},
+		"About_company": "ABC Retailers is a leading e-commerce platform for fashion and accessories.",
+		"Project": {
+			"description": "A complete redesign of the e-commerce platform focusing on user experience.",
+			"client_problems": "The website had poor navigation and high bounce rates on mobile.",
+			"My_solution": "Implemented a responsive design with improved navigation and faster load times."
+		},
+		"Project_started": "Feb 2023",
+		"Project_ended_at": "May 2023",
+		"Changes": {
+			"New_users": "25% increase",
+			"Visites": "30% increase",
+			"Social_followers": "15% increase",
+			"sales": "20% increase in sales"
+		}
+	},
+	{
+		"ProjectName": "Travel Booking App",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=800&q=60",
+			"alt": "alt tag for the travel app banner image"
+		},
+		"Category": "Mobile App Development",
+		"slug": "travel-booking-app",
+		"Company_Name": "Wanderlust Inc.",
+		"Company_Location": {
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "USA"
+		},
+		"About_company": "Wanderlust Inc. is a tech company specializing in travel and tourism solutions.",
+		"Project": {
+			"description": "Development of a mobile app for booking flights, hotels, and activities.",
+			"client_problems": "Users found it difficult to search and book multiple services within one platform.",
+			"My_solution": "Designed an intuitive UI that allows seamless booking of flights, hotels, and activities in one app."
+		},
+		"Project_started": "Jan 2023",
+		"Project_ended_at": "Apr 2023",
+		"Changes": {
+			"New_users": "40% increase",
+			"Visites": "50% increase",
+			"Social_followers": "25% increase",
+			"sales": "35% increase in bookings"
+		}
+	},
+	{
+		"ProjectName": "Fitness Tracker Redesign",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=60",
+			"alt": "alt tag for the fitness tracker redesign banner"
+		},
+		"Category": "UI/UX Design",
+		"slug": "fitness-tracker-redesign",
+		"Company_Name": "FitLife",
+		"Company_Location": {
+			"city": "Austin",
+			"state": "TX",
+			"country": "USA"
+		},
+		"About_company": "FitLife is a company dedicated to fitness and health tracking solutions.",
+		"Project": {
+			"description": "Redesign of the user interface for the company's flagship fitness tracker app.",
+			"client_problems": "Users found the interface cluttered and difficult to use.",
+			"My_solution": "Streamlined the UI to focus on essential features and improved overall user experience."
+		},
+		"Project_started": "Mar 2023",
+		"Project_ended_at": "Jun 2023",
+		"Changes": {
+			"New_users": "20% increase",
+			"Visites": "25% increase",
+			"Social_followers": "10% increase",
+			"sales": "15% increase in app downloads"
+		}
+	},
+	{
+		"ProjectName": "Real Estate Website Overhaul",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?w=800&q=60",
+			"alt": "alt tag for the real estate website banner"
+		},
+		"Category": "Full Mern-stack",
+		"slug": "real-estate-overhaul",
+		"Company_Name": "Prime Properties",
+		"Company_Location": {
+			"city": "Miami",
+			"state": "FL",
+			"country": "USA"
+		},
+		"About_company": "Prime Properties is a luxury real estate agency specializing in high-end properties.",
+		"Project": {
+			"description": "Complete overhaul of the real estate website with new features and modern design.",
+			"client_problems": "The old website was not responsive and lacked modern features such as virtual tours.",
+			"My_solution": "Developed a new responsive website with virtual tour integration and advanced property search."
+		},
+		"Project_started": "May 2023",
+		"Project_ended_at": "Aug 2023",
+		"Changes": {
+			"New_users": "30% increase",
+			"Visites": "40% increase",
+			"Social_followers": "20% increase",
+			"sales": "25% increase in property inquiries"
+		}
+	},
+	{
+		"ProjectName": "E-Learning Platform",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1610500796385-3ffc1ae2f046?w=800&q=60",
+			"alt": "alt tag for the e-learning platform banner"
+		},
+		"Category": "BackEnd",
+		"slug": "e-learning-platform",
+		"Company_Name": "EduTech",
+		"Company_Location": {
+			"city": "Boston",
+			"state": "MA",
+			"country": "USA"
+		},
+		"About_company": "EduTech is a leading provider of online educational courses and learning materials.",
+		"Project": {
+			"description": "Backend development for a new e-learning platform that supports video streaming and quizzes.",
+			"client_problems": "The existing system couldn't handle the increased load from more users and content.",
+			"My_solution": "Built a scalable backend with optimized databases and load balancing to handle high traffic."
+		},
+		"Project_started": "Apr 2023",
+		"Project_ended_at": "Jul 2023",
+		"Changes": {
+			"New_users": "35% increase",
+			"Visites": "45% increase",
+			"Social_followers": "30% increase",
+			"sales": "40% increase in course enrollments"
+		}
+	},
+	{
+		"ProjectName": "Restaurant Ordering System",
+		"Banner_image": {
+			"url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=60",
+			"alt": "alt tag for the restaurant ordering system banner"
+		},
+		"Category": "FrontEnd",
+		"slug": "restaurant-ordering-system",
+		"Company_Name": "Gourmet Express",
+		"Company_Location": {
+			"city": "Chicago",
+			"state": "IL",
+			"country": "USA"
+		},
+		"About_company": "Gourmet Express is a chain of restaurants specializing in gourmet fast food.",
+		"Project": {
+			"description": "Development of a user-friendly online ordering system for the restaurant.",
+			"client_problems": "The restaurant's existing online system was outdated and had a high cart abandonment rate.",
+			"My_solution": "Created a new, responsive front-end that simplifies the ordering process and reduces cart abandonment."
+		},
+		"Project_started": "Feb 2023",
+		"Project_ended_at": "May 2023",
+		"Changes": {
+			"New_users": "50% increase",
+			"Visites": "60% increase",
+			"Social_followers": "35% increase",
+			"sales": "45% increase in online orders"
+		}
+	}
+]

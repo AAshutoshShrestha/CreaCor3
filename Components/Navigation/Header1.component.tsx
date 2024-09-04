@@ -8,6 +8,10 @@ const MenuItems = [
 		link: "/",
 	},
 	{
+		name: "Portfolio",
+		link: "/portfolio",
+	},
+	{
 		name: "About",
 		link: "/about",
 	},

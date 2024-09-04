@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaArrowUp } from "react-icons/fa6"
+import { PrimaryBtn,SecondaryBtn } from "../common/Button/index.component"
 
 const HeroSection = () => {
 	return (
@@ -17,15 +17,8 @@ const HeroSection = () => {
 								seamless user experiences...</p>
 							<div className="flex items-center gap-4 divide-x divide-zinc-700">
 
-								<Link href="mailto:hello@CreaCore.io" className="group inline-flex h-8 items-center gap-2.5 rounded-md bg-zinc-800 px-3 transition-all duration-500">
-									<span className="text-sm tracking-wide bg-transparent text-white">Let&apos;s talk</span>
-									<FaArrowUp className="text-white transition duration-300 group-hover:rotate-45 bg-transparent"/>
-
-								</Link>
-
-								<Link href="/about" className="pl-4 text-sm tracking-wide text-zinc-300 hover:text-white hover:border-y-zinc-500 ">
-									About me
-								</Link>
+								<PrimaryBtn text="Let&apos;s talk" link="mailto:hello@CreaCore.io"/>
+								<SecondaryBtn text="About me" link="/about"/>
 
 							</div>
 						</div>

@@ -1,5 +1,8 @@
 import Image from "next/image"
-import { FaCircleArrowUp, FaFacebookF, FaInstagram, FaGithub, FaXTwitter, FaGoogle } from "react-icons/fa6"
+import { FaCircleArrowUp } from "react-icons/fa6"
+import { PrimaryBtn } from "../common/Button/index.component"
+import { Social_Link } from "@/data/socialLink"
+import Link from "next/link"
 
 export const Footer2 = () => {
 	return (
@@ -15,23 +18,29 @@ export const Footer2 = () => {
 
 				<div className="mb-12 md:mb-8">
 					<p className="text-xl text-zinc-200">For full time hiring or freelance work</p>
-					<p className="pt-2 text-sm text-zinc-500">Write a mail to <span className="text-red-500"><a
-						href="mailto:aashutoshrestha0@gmail.com">aashutoshrestha0@gmail.com</a></span>
-						or book a meet call with all details</p>
+					<p className="pt-2 text-sm text-zinc-500">Write a mail to
+						<span className="text-red-500 m-1">
+							<a href="mailto:aashutoshrestha0@gmail.com">aashutoshrestha0@gmail.com</a>
+						</span>
+						or book a meet call with all details
+					</p>
+					<PrimaryBtn text="Let&apos;s talk" link="mailto:hello@CreaCore.io" className="mt-6" />
+
 				</div>
 
 				<div className="flex flex-row gap-8 text-xl text-zinc-200">
-					<a href="http://Facebook.com"><FaFacebookF className="" /></a>
-					<a href="http://Instagram.com"><FaInstagram /></a>
-					<a href="http://Github.com"><FaGithub /></a>
-					<a href="http://Twitter.com"><FaXTwitter /></a>
-					<a href="http://Google.com"><FaGoogle /></a>
+					{Social_Link.map((link, index) => (
+						<a key={index} href={link.url}>
+							{link.icon}
+						</a>
+					))}
 				</div>
 
 				<div className="flex flex-row justify-between my-12 md:my-8">
 					<div className="flex flex-col items-start justify-end gap-2">
 						<p className="text-xs font-semibold text-zinc-200">Build in Next.js ❤</p>
 						<p className="text-xs font-semibold text-zinc-200">@2024 All rights reserved</p>
+						<p className="text-xs font-semibold text-zinc-200"><Link href="https://shresthaaashutosh.com.np" target="__blank__">Aashutosh Shrestha</Link></p>
 					</div>
 
 					<div className="flex gap-8">
